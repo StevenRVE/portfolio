@@ -31,6 +31,9 @@ const Services = () => {
           image="/icons/desktop-code.svg"
         />
       </div>
+      <p className="desktop:text-[40px] mobile:text-[24x] font-bold text-center mb-4">
+        More information coming soon!
+      </p>
     </div>
   );
 };
