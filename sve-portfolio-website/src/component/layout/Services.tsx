@@ -2,7 +2,10 @@ import Service from "@/static/Service";
 
 const Services = () => {
   return (
-    <div className="bg-slate-800">
+    <div
+      id="Services"
+      className="flex text-white min-h-full flex-col items-center bg-slate-800"
+    >
       <img
         className="w-full h-44"
         src="/transitions/transition_gradient.svg"
