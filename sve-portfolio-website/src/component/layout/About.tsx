@@ -1,7 +1,7 @@
 import Summary from "@/static/Summary";
 import Timeline from "@/static/Timeline";
 
-function About() {
+const About = () => {
   return (
     <div id="About" className="bg-slate-800">
       <img
@@ -19,6 +19,6 @@ function About() {
       </div>
     </div>
   );
-}
+};
 
 export default About;

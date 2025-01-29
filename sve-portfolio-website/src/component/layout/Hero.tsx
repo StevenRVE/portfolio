@@ -3,7 +3,7 @@
 import SocialMedia from "@/static/SocialMedia";
 import Typing from "@/static/Typing";
 
-function Hero() {
+const Hero = () => {
   return (
     <div
       id="Hero"
@@ -30,6 +30,6 @@ function Hero() {
       </div>
     </div>
   );
-}
+};
 
 export default Hero;

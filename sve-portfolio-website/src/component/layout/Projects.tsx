@@ -2,7 +2,7 @@ import Project from "../../static/Project";
 import projectData from "../../../public/data/projects.json";
 import MenuItem from "../menu/elements/MenuItem";
 
-function Projects() {
+const Projects = () => {
   return (
     <div
       id="Projects"
@@ -30,6 +30,6 @@ function Projects() {
       </div>
     </div>
   );
-}
+};
 
 export default Projects;

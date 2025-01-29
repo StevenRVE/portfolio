@@ -3,7 +3,7 @@
 import UseScrollFade from "@/hooks/useScrollFade";
 import MenuItem from "@/component/menu/elements/MenuItem";
 
-function Navbar() {
+const Navbar = () => {
   const isAtTop = UseScrollFade();
 
   return (
@@ -21,6 +21,6 @@ function Navbar() {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;

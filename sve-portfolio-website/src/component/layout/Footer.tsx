@@ -1,4 +1,4 @@
-function Footer() {
+const Footer = () => {
   return (
     <div className="bg-gradient-to-r from-gradientLeft to-gradientRight">
       <img
@@ -11,6 +11,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

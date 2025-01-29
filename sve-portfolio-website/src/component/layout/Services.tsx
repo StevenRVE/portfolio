@@ -1,6 +1,6 @@
 import Service from "@/static/Service";
 
-function Services() {
+const Services = () => {
   return (
     <div className="bg-slate-800">
       <img
@@ -30,6 +30,6 @@ function Services() {
       </div>
     </div>
   );
-}
+};
 
 export default Services;
