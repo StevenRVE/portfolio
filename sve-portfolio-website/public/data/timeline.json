@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "title": "AV Software Engineer",
+      "company": "GISB audiovisueel",
+      "year": "2023",
+      "tasks": "Preparing meeting rooms, configuring AV hardware, designing AV systems with QSYS, and designing  User Interface for QSYS projects. I always strived to optimize processes and improve existing installations, utilizing Lua scripting for software engineer and handling support work efficiently.",
+      "tags": ["AV", "QSYS", "Lua"]
+    },
+    {
+      "title": "Creative System Designer",
+      "company": "Soundlab Amsterdam",
+      "year": "2022",
+      "tasks": "As a Creative System Designer, I developed and implemented interactive and technical solutions for the Soundlab project at the Stedelijk Museum in Amsterdam. My role focused on designing and prototyping embedded systems using Arduino, crafting user-centered technical designs, and ensuring seamless integration of hardware and software. This work blended creativity and technical expertise to enhance the visitor experience through innovative sound installations.",
+      "tags": ["Adruino", "Technical Design", "Embedded Systems","Max/MSP"]
+    }
+  ]
+}
