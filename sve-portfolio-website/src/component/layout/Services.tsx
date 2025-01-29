@@ -16,17 +16,17 @@ const Services = () => {
       </p>
       <div className="flex desktop:flex-row mobile:flex-col mobile:items-center flex-grow justify-around text-center">
         <Service
-          headline="Service 1"
+          headline="Audio Plugin Development"
           description="Service 1 description"
           image="/icons/dashboard.svg"
         />
         <Service
-          headline="Service 2"
+          headline="Audio Software Development"
           description="Service 2 description"
           image="/icons/music-equalizer.svg"
         />
         <Service
-          headline="Service 3"
+          headline="Web Development"
           description="Service 3 description"
           image="/icons/desktop-code.svg"
         />
