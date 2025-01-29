@@ -14,7 +14,7 @@ const Services = () => {
       <p className="flex text-4xl my-8 justify-center text-white font-bold ">
         Services
       </p>
-      <div className="flex desktop:flex-row mobile:flex-col mobile:items-center flex-grow justify-around text-center">
+      <div className="flex desktop:flex-row mobile:flex-col mobile:items-center justify-around text-center w-full">
         <Service
           headline="Audio Plugin Development"
           description="Service 1 description"
