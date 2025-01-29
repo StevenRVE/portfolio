@@ -4,7 +4,10 @@ import MenuItem from "../menu/elements/MenuItem";
 
 function Projects() {
   return (
-    <div className="bg-gradient-to-r from-gradientLeft to-gradientRight">
+    <div
+      id="Projects"
+      className="bg-gradient-to-r from-gradientLeft to-gradientRight"
+    >
       <img
         className="w-full h-44"
         src="/transitions/transition_grey.svg"
