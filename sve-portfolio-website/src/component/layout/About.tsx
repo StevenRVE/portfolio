@@ -3,7 +3,7 @@ import Timeline from "@/static/Timeline";
 
 function About() {
   return (
-    <div className="bg-slate-800" id="About">
+    <div id="About" className="bg-slate-800">
       <img
         className="w-full h-44"
         src="/transitions/transition_gradient.svg"
