@@ -2,14 +2,14 @@
   "data": [
     {
       "title": "Interactive Audio Visual Art installations",
-      "image": "",
-      "link": "",
+      "image": "../images/steven-kandinsky.webp",
+      "link": "https://www.muziekgebouw.nl/nl/pQA67cW/soundlab-in-het-stedelijk-museum-amsterdam",
       "tags": ["Adruino", "Technical Design", "Embedded Systems","Max/MSP"],
       "text": ""
     },
     {
       "title": "Portfolio Website",
-      "image": "",
+      "image": "../images/portfolio-temp-image.png",
       "link": "",
       "tags": ["Next.js", "Javascript", "Tailwind CSS"],
       "text": "A portfolio website to showcase my work and projects."
