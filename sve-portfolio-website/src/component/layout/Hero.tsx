@@ -1,5 +1,7 @@
 "use client";
 
+import Arrow from "@/static/Arrow";
+import Link from "next/link";
 import SocialMedia from "@/static/SocialMedia";
 import Typing from "@/static/Typing";
 
@@ -27,6 +29,11 @@ const Hero = () => {
           src="/images/portrait-steven-no-bg.webp"
           alt="Portrait"
         />
+        <div className="desktop:absolute desktop:bottom-10 inset-0 flex items-end py-2 justify-center z-10">
+          <Link href={"/#About"} aria-label="About">
+            <Arrow />
+          </Link>
+        </div>
       </div>
     </div>
   );

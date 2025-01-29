@@ -20,12 +20,24 @@ export default {
       },
       animation: {
         scalepulse: "scalepulse 8s ease-in-out infinite",
+        moveFade: "moveFade 2s linear infinite",
       },
       keyframes: {
         scalepulse: {
           "0%": { transform: "scale(1)" },
           "50%": { transform: "scale(1.1)" },
           "100%": { transform: "scale(1)" },
+        },
+        moveFade: {
+          "0%": {
+            opacity: "0",
+            transform: "rotate(45deg), translate(-10px, 10px)",
+          },
+          "50%": { opacity: "1" },
+          "100%": {
+            opacity: "0",
+            transform: "rotate(45deg), translateY(10px, 10px)",
+          },
         },
       },
       backgroundImage: {
