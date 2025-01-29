@@ -5,12 +5,33 @@ export default {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      mobile: { max: "1023px" },
+      desktop: { min: "1024px" },
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        lightcyan: "#84ffff",
+        gradientLeft: "#8e24aa",
+        gradientRight: "#1e88e5",
+      },
+      animation: {
+        scalepulse: "scalepulse 8s ease-in-out infinite",
+      },
+      keyframes: {
+        scalepulse: {
+          "0%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.1)" },
+          "100%": { transform: "scale(1)" },
+        },
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
