@@ -1,4 +1,8 @@
-import { ServiceData } from "../types/types.d";
+interface ServiceData {
+  headline: string;
+  description: string;
+  image: string;
+}
 
 const Service = (serviceData: ServiceData) => {
   return (
