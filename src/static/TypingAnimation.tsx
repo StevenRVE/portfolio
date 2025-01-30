@@ -17,7 +17,7 @@ const TypingAnimation = () => {
       speed={10}
       preRenderFirstString={true}
       style={{
-        marginLeft: "5px",
+        marginLeft: "0px",
         fontSize: "1em",
         textAlign: "left",
         color: "#84ffff",
