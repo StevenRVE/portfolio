@@ -1,12 +1,14 @@
 import SocialMedia from "@/static/SocialMedia";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <div className="bg-gradient-to-r from-gradientLeft to-gradientRight">
-      <img
-        className="w-full h-44"
+      <Image
         src="/transitions/transition_grey.svg"
         alt="transition"
+        width={1920}
+        height={176}
       />
       <footer className="flex flex-col items-center">
         <div className="pt-5">

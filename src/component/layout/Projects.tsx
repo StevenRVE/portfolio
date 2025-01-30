@@ -1,6 +1,6 @@
 import Project from "../../static/Project";
 import projectData from "../../../public/data/projects.json";
-import MenuItem from "../menu/elements/MenuItem";
+import Image from "next/image";
 
 const Projects = () => {
   return (
@@ -8,10 +8,11 @@ const Projects = () => {
       id="Projects"
       className="bg-gradient-to-r from-gradientLeft to-gradientRight"
     >
-      <img
-        className="w-full h-44"
+      <Image
         src="/transitions/transition_grey.svg"
         alt="transition"
+        width={1920}
+        height={176}
       />
       <p className="flex text-4xl mb-8 mt-8 justify-center text-white font-bold">
         Featured Projects
