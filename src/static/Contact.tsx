@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 desktop:w-1/3 mobile:w-full mobile:px-4 mobile:max-w-3xl">
+    <section className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:w-2/3 w-full px-4 max-w-3xl">
       <div className="px-2 mx-auto">
         <form
           action="https://formsubmit.co/stevenvanesch.sve@gmail.com"

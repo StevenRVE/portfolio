@@ -3,7 +3,7 @@ const Summary = () => {
     <>
       <p className="text-4xl mb-8">About me</p>
       <article
-        className="desktop:text-xl mobile:text-md"
+        className="lg:text-xl text-md"
         itemScope
         itemType="https://schema.org/author"
       >

@@ -20,7 +20,7 @@ const Services = () => {
       <p className="flex text-4xl my-8 justify-center text-white font-bold ">
         Services
       </p>
-      <div className="flex desktop:flex-row mobile:flex-col mobile:items-center justify-around text-center w-full">
+      <div className="flex lg:flex-row flex-col justify-around text-center m-10">
         <Service
           headline="Audio Plugin Development"
           description="Service 1 description"
@@ -37,10 +37,10 @@ const Services = () => {
           image={serviceIcon3}
         />
       </div>
-      <p className="flex flex-col desktop:text-[40px] mobile:text-[24x] font-bold text-center items-center mb-4">
+      <p className="flex flex-col lg:text-[40px] text-[20px] font-bold text-center items-center mb-4">
         More information coming soon!
         <ContactButton title={"Contact"} />
-      </p>
+      </div>
     </div>
   );
 };

@@ -25,7 +25,7 @@ const BurgerMenu = () => {
   }, [isMenuOpen]);
 
   return (
-    <div className="desktop:hidden">
+    <div className="lg:hidden">
       <div className="fixed top-0 right-0 p-2 z-50" onClick={toggleMenu}>
         {isMenuOpen ? <Close /> : <Burger />}
       </div>

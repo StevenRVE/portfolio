@@ -8,10 +8,6 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      mobile: { max: "1023px" },
-      desktop: { min: "1024px" },
-    },
     extend: {
       colors: {
         lightcyan: "#84ffff",

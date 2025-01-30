@@ -12,10 +12,10 @@ const About = () => {
         height={176}
       />
       <div className="flex justify-center items-center text-white">
-        <div className="flex desktop:w-1/2 mobile:w-full mobile:p-4 flex-col desktop:p-20">
+        <div className="flex lg:w-1/2 w-full p-4 flex-col lg:p-20">
           <Summary />
         </div>
-        <div className="desktop:flex mobile:hidden w-1/2 flex-col pl-10">
+        <div className="lg:flex hidden w-1/2 flex-col pl-10 m-10">
           {<Timeline />}
         </div>
       </div>
