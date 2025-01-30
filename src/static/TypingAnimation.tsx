@@ -23,7 +23,7 @@ const TypingAnimation = () => {
         color: "#84ffff",
         fontWeight: "bold",
         display: "inline-block",
-        width: "38.5%",
+        width: "100%",
       }}
       repeat={Infinity}
     />
