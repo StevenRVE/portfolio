@@ -15,19 +15,34 @@ export const useGlobalState = (): GlobalState => {
 
 export const GlobalStateProvider = ({ children }: { children: any }) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isModalOpen, setModalOpen] = useState(false);
 
+  // Toggles
   const toggleMenu = (): void => {
     setMenuOpen((prevState) => !prevState);
   };
 
+  const toggleModal = (): void => {
+    setModalOpen((prevState) => !prevState);
+  };
+
+  // Exits
   const exitMenu = (): void => {
     setMenuOpen(false);
   };
 
+  const exitModal = (): void => {
+    setModalOpen(false);
+  };
+
+  // Global state
   const value: GlobalState = {
     isMenuOpen,
+    isModalOpen,
     toggleMenu,
+    toggleModal,
     exitMenu,
+    exitModal,
   };
 
   return (

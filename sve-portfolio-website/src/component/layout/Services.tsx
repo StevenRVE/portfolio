@@ -1,4 +1,5 @@
 import Service from "@/static/Service";
+import ContactButton from "../menu/elements/ContactButton";
 
 const Services = () => {
   return (
@@ -31,8 +32,9 @@ const Services = () => {
           image="/icons/desktop-code.svg"
         />
       </div>
-      <p className="desktop:text-[40px] mobile:text-[24x] font-bold text-center mb-4">
+      <p className="flex flex-col desktop:text-[40px] mobile:text-[24x] font-bold text-center items-center mb-4">
         More information coming soon!
+        <ContactButton title={"Contact"} />
       </p>
     </div>
   );

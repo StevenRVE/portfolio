@@ -1,3 +1,4 @@
+import ContactButton from "./ContactButton";
 import MenuItem from "./MenuItem";
 
 const Menu = () => {
@@ -6,6 +7,7 @@ const Menu = () => {
       <MenuItem title={"About"} />
       <MenuItem title={"Projects"} />
       <MenuItem title={"Services"} />
+      <ContactButton title={"Contact"} />
     </>
   );
 };

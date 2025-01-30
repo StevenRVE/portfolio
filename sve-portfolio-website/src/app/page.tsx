@@ -7,12 +7,14 @@ import Services from "@/component/layout/Services";
 import "./globals.css";
 import BurgerMenu from "@/component/menu/BurgerMenu";
 import { GlobalStateProvider } from "@/contexts/GlobalStateContext";
+import Modal from "@/component/layout/Modal";
 
 export default function Home() {
   return (
     <GlobalStateProvider>
       <Navbar />
       <BurgerMenu />
+      <Modal />
       <Hero />
       <About />
       <Projects />

@@ -2,13 +2,14 @@
 
 import UseScrollFade from "@/hooks/useScrollFade";
 import MenuItem from "@/component/menu/elements/MenuItem";
+import ContactButton from "../menu/elements/ContactButton";
 
 const Navbar = () => {
   const isAtTop = UseScrollFade();
 
   return (
     <div
-      className={`sticky -mt-14 top-0 z-50 ${
+      className={`mobile:hidden sticky -mt-14 top-0 z-50 ${
         isAtTop
           ? "opacity-100"
           : "opacity-0 hover:opacity-100 transition-opacity duration-500"
@@ -18,6 +19,7 @@ const Navbar = () => {
         <MenuItem title={"About"} />
         <MenuItem title={"Projects"} />
         <MenuItem title={"Services"} />
+        <ContactButton title={"Contact"} />
       </div>
     </div>
   );
