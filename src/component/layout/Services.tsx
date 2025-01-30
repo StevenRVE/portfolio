@@ -1,9 +1,10 @@
 import Service from "@/static/Service";
 import ContactButton from "../menu/elements/ContactButton";
 import Image from "next/image";
-import serviceIcon1 from "@/public/icons/dashboard.svg";
-import serviceIcon2 from "@/public/icons/music-equalizer.svg";
-import serviceIcon3 from "@/public/icons/desktop-code.svg";
+import serviceIcon1 from "../../../public/icons/dashboard.svg";
+import serviceIcon2 from "../../../public/icons/music-equalizer.svg";
+import serviceIcon3 from "../../../public/icons/desktop-code.svg";
+import transitionGradient from "../../../public/transitions/transition_gradient.svg";
 
 const Services = () => {
   return (
@@ -12,10 +13,9 @@ const Services = () => {
       className="flex text-white min-h-full flex-col items-center bg-slate-800"
     >
       <Image
-        src="/transitions/transition_gradient.svg"
+        src={transitionGradient}
         alt="transition"
-        width={1920}
-        height={176}
+        className="w-cover w-full h-auto"
       />
       <p className="flex text-4xl my-8 justify-center text-white font-bold ">
         Services
@@ -39,6 +39,8 @@ const Services = () => {
       </div>
       <p className="flex flex-col lg:text-[40px] text-[20px] font-bold text-center items-center mb-4">
         More information coming soon!
+      </p>
+      <div className="mb-4">
         <ContactButton title={"Contact"} />
       </div>
     </div>

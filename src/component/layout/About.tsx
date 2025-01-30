@@ -1,15 +1,15 @@
 import Summary from "@/static/Summary";
 import Timeline from "@/static/Timeline";
 import Image from "next/image";
+import transitionGradient from "../../../public/transitions/transition_gradient.svg";
 
 const About = () => {
   return (
     <div id="About" className="bg-slate-800">
       <Image
-        src="/transitions/transition_gradient.svg"
+        src={transitionGradient}
         alt="transition"
-        width={1920}
-        height={176}
+        className="w-cover w-full h-auto"
       />
       <div className="flex justify-center items-center text-white">
         <div className="flex lg:w-1/2 w-full p-4 flex-col lg:p-20">

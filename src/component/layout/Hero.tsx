@@ -29,7 +29,9 @@ const Hero = () => {
           <Image
             src="/images/portrait-steven-no-bg.webp"
             alt="Portrait"
-            layout="fill"
+            width={500}
+            height={200}
+            className="object-contain mb-10 lg:mb-0"
           />
         </div>
         <div className="lg:absolute lg:bottom-10 inset-0 flex items-end py-2 justify-center z-10">

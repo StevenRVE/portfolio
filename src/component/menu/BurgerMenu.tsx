@@ -22,7 +22,7 @@ const BurgerMenu = () => {
     return () => {
       window.removeEventListener("resize", exitMenu);
     };
-  }, [isMenuOpen]);
+  }, [isMenuOpen, toggleMenu, exitMenu]);
 
   return (
     <div className="lg:hidden">

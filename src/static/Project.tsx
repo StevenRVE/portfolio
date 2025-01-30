@@ -13,7 +13,7 @@ const Project = ({ headline, image, text, tags, link }: ProjectProps) => {
   return (
     <a href={link} aria-label={text}>
       <div className="flex flex-col transition-all hover:scale-105 scale-100 bg-opacity-20 bg-black rounded-lg max-h-max max-w-96 m-3 text-white">
-        <div className=" rounded-t-lg max-h-64 overflow-hidden">
+        <div className=" rounded-t-lg max-h-64 over">
           <Image alt={text} src={image} width={500} height={500} />
         </div>
         <div className="p-4">

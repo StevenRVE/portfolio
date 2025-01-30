@@ -1,6 +1,7 @@
 import Project from "../../static/Project";
 import projectData from "../../../public/data/projects.json";
 import Image from "next/image";
+import transitionGrey from "../../../public/transitions/transition_grey.svg";
 
 const Projects = () => {
   return (
@@ -9,15 +10,14 @@ const Projects = () => {
       className="bg-gradient-to-r from-gradientLeft to-gradientRight"
     >
       <Image
-        src="/transitions/transition_grey.svg"
+        src={transitionGrey}
         alt="transition"
-        width={1920}
-        height={176}
+        className="object-cover w-full h-auto"
       />
-      <p className="flex text-4xl mb-8 mt-8 justify-center text-white font-bold">
+      <p className="flex text-4xl mb-8 mt-16 justify-center text-white font-bold">
         Featured Projects
       </p>
-      <div className="flex flex-wrap w-full desktop:pl-20 desktop:pr-20 justify-center">
+      <div className="flex flex-wrap w-full lg:pl-20 lg:pr-20 justify-center">
         {projectData.data.map((item, index) => (
           <Project
             key={index}
