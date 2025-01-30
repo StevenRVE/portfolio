@@ -34,8 +34,8 @@ const Hero = () => {
             className="object-contain mb-10 lg:mb-0"
           />
         </div>
-        <div className="lg:absolute lg:bottom-10 inset-0 flex items-end py-2 justify-center z-10">
-          <Link href={"/#About"} aria-label="About">
+        <div className="flex lg:absolute bottom-10 inset-0 items-end p-0 justify-center">
+          <Link href={"/#About"} aria-label="About" className="px-4 pb-4 pt-2">
             <Arrow />
           </Link>
         </div>
