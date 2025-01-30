@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/sve-portfolio-website/node_modules
 /.pnp
 .pnp.*
 .yarn/*
