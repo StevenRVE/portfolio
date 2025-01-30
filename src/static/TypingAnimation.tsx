@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 
-const Typing = () => {
+const TypingAnimation = () => {
   return (
     <TypeAnimation
       sequence={[
@@ -30,4 +30,4 @@ const Typing = () => {
   );
 };
 
-export default Typing;
+export default TypingAnimation;

@@ -3,7 +3,7 @@
 import Arrow from "@/static/Arrow";
 import Link from "next/link";
 import SocialMedia from "@/static/SocialMedia";
-import Typing from "@/static/Typing";
+import TypingAnimation from "../../static/TypingAnimation";
 import Image from "next/image";
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
           <p className="desktop:text-[3vw] mobile:text-[5vw]">
             a developer specializing in audio software development with
-            <Typing />
+            <TypingAnimation />
           </p>
           <div className="flex mobile:hidden mt-6 justify-start w-[17vw]">
             <SocialMedia size={200} />
