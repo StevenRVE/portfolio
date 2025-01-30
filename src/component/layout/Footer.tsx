@@ -14,7 +14,6 @@ const Footer = () => {
         <div className="pt-5">
           <SocialMedia size={35} />
         </div>
-        <hr className="flex-grow" />
         <div className="flex items-center p-5 text-white">
           &copy; {new Date().getFullYear()} by&nbsp;
           <a
