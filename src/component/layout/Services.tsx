@@ -20,7 +20,7 @@ const Services = () => {
       <p className="flex text-4xl my-8 justify-center text-white font-bold ">
         Services
       </p>
-      <div className="flex lg:flex-row flex-col justify-around text-center m-10">
+      <div className="flex lg:flex-row flex-col text-center justify-center">
         <Service
           headline="Audio Plugin Development"
           description="Service 1 description"
