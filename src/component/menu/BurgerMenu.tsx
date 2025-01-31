@@ -27,6 +27,7 @@ const BurgerMenu = () => {
   return (
     <div className="lg:hidden">
       <div className="fixed top-0 right-0 p-2 z-50" onClick={toggleMenu}>
+        {/* Tried to change this to <button> but descendant issue? */}
         {isMenuOpen ? <Close /> : <Burger />}
       </div>
       {isMenuOpen ? (
