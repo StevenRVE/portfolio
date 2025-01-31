@@ -37,7 +37,7 @@ const Services = () => {
           image={serviceIcon3}
         />
       </div>
-      <p className="flex flex-col lg:text-[40px] text-[20px] font-bold text-center items-center mb-4">
+      <p className="flex flex-col lg:text-3xl text-2xl font-bold text-center items-center mb-12">
         More information coming soon!
       </p>
       <div className="mb-4">
