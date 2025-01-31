@@ -15,7 +15,8 @@ const About = () => {
         <div className="flex lg:w-1/2 w-full p-4 flex-col lg:p-20">
           <Summary />
         </div>
-        <div className="lg:flex hidden w-1/2 flex-col pl-10 m-10">
+        <div className="lg:flex lg:w-1/2 flex-col pl-10 m-10">
+          {/* TODO: make year bar hidden in small mode*/}
           {<Timeline />}
         </div>
       </div>
