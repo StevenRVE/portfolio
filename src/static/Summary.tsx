@@ -1,7 +1,9 @@
 const Summary = () => {
   return (
     <>
-      <p className="text-4xl mb-8">About me</p>
+      <p className="text-4xl font-bold mb-8 text-center lg:text-left ">
+        About me
+      </p>
       <article
         className="lg:text-xl text-md"
         itemScope
