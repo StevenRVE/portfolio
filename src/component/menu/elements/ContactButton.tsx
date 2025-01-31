@@ -20,7 +20,7 @@ const ContactButton = ({ title }: { title: string }) => {
   }, [isModalOpen]);
 
   return (
-    <button className="flex items-center cursor-pointer">
+    <div className="flex items-center cursor-pointer">
       <div
         aira-label={title}
         className={
@@ -30,7 +30,7 @@ const ContactButton = ({ title }: { title: string }) => {
       >
         {title}
       </div>
-    </button>
+    </div>
   );
 };
 
