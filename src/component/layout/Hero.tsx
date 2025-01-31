@@ -30,7 +30,7 @@ const Hero = () => {
             src="/images/portrait-steven-no-bg.webp"
             alt="Portrait"
             width={500}
-            height={200}
+            height={500}
             className="object-contain mb-10 lg:mb-0"
           />
         </div>
