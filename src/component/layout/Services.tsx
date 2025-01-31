@@ -40,9 +40,10 @@ const Services = () => {
       <p className="flex flex-col lg:text-3xl text-2xl font-bold text-center items-center mb-12">
         More information coming soon!
       </p>
-      <div className="mb-4">
+      <button className="mb-12">
+        {/* TODO: Make button bigger */}
         <ContactButton title={"Contact"} />
-      </div>
+      </button>
     </div>
   );
 };
