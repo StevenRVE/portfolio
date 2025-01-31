@@ -11,8 +11,8 @@ const About = () => {
         alt="transition"
         className="w-cover w-full h-auto"
       />
-      <div className="flex justify-center items-center text-white">
-        <div className="flex lg:w-1/2 w-full p-4 flex-col lg:p-20">
+      <div className="flex flex-col lg:flex-row justify-center items-center text-white">
+        <div className="flex lg:w-1/2 w-full flex-col p-20">
           <Summary />
         </div>
         <div className="lg:flex lg:w-1/2 flex-col pl-10 m-10">
