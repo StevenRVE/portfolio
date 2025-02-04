@@ -21,8 +21,8 @@ const Hero = () => {
             a developer specializing in audio software development with
             <TypingAnimation />
           </p>
-          <div className="lg:flex hidden mt-6 justify-start w-[17vw]">
-            <SocialMedia size={200} />
+          <div className="lg:flex hidden mt-6 justify-start w-[15vw]">
+            <SocialMedia size={100} />
           </div>
         </div>
         <div className="lg:w-2/5 w-full order-first lg:order-last">

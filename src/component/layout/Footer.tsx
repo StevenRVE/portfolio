@@ -12,7 +12,7 @@ const Footer = () => {
       />
       <footer className="flex flex-col items-center">
         <div className="pt-5">
-          <SocialMedia size={35} />
+          <SocialMedia size={100} />
         </div>
         <div className="flex items-center p-5 text-white">
           &copy; {new Date().getFullYear()} by&nbsp;
