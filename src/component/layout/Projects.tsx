@@ -10,12 +10,12 @@ const Projects = () => {
       className="bg-gradient-to-r from-gradientLeft to-gradientRight"
     >
       <div className="w-full h-40 relative">
-      <Image
-        src={transitionGrey}
-        alt="transition"
+        <Image
+          src={transitionGrey}
+          alt="transition"
           fill
           className="w-full h-auto"
-      />
+        />
       </div>
       <p className="flex text-4xl mb-8 mt-16 justify-center text-white font-bold">
         Featured Projects

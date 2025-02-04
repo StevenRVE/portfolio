@@ -7,12 +7,12 @@ const About = () => {
   return (
     <div id="About" className="bg-slate-800">
       <div className="w-full h-40 relative">
-      <Image
+        <Image
           src={transition}
-        alt="transition"
+          alt="transition"
           fill
           className="w-full h-auto"
-      />
+        />
       </div>
       <div className="flex flex-col lg:flex-row justify-center items-center text-white">
         <div className="flex lg:w-1/2 w-full flex-col p-20">
