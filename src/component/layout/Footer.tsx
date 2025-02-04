@@ -16,12 +16,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center p-5 text-white">
           &copy; {new Date().getFullYear()} by&nbsp;
-          <a
-            href=" https://www.github.com/StevenRVE"
-            className="hover:underline"
-          >
-            Steven van Esch
-          </a>
+          <a>Steven van Esch</a>
         </div>
       </footer>
     </div>
