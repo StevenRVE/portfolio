@@ -20,7 +20,7 @@ const Projects = () => {
       <p className="flex text-4xl mb-8 mt-16 justify-center text-white font-bold">
         Featured Projects
       </p>
-      <div className="flex flex-wrap w-full lg:pl-20 lg:pr-20 justify-center">
+      <div className="flex flex-wrap pb-20 w-full lg:pl-20 lg:pr-20 justify-center">
         {projectData.data.map((item, index) => (
           <Project
             key={index}
