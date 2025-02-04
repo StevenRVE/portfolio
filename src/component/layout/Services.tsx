@@ -4,7 +4,7 @@ import Image from "next/image";
 import serviceIcon1 from "../../../public/icons/dashboard.svg";
 import serviceIcon2 from "../../../public/icons/music-equalizer.svg";
 import serviceIcon3 from "../../../public/icons/desktop-code.svg";
-import transitionGradient from "../../../public/transitions/transition_gradient.svg";
+import transitionGradient from "../../../public/transitions/waves-gradient.svg";
 
 const Services = () => {
   return (
@@ -12,11 +12,14 @@ const Services = () => {
       id="Services"
       className="flex text-white min-h-full flex-col items-center bg-slate-800"
     >
-      <Image
-        src={transitionGradient}
-        alt="transition"
-        className="w-cover w-full h-auto"
-      />
+      <div className="w-full h-20 relative">
+        <Image
+          src={transitionGradient}
+          alt="transition"
+          fill
+          className="w-full h-auto"
+        />
+      </div>
       <p className="flex text-4xl my-8 justify-center text-white font-bold ">
         Services
       </p>

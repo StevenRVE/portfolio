@@ -1,16 +1,19 @@
 import Summary from "@/static/Summary";
 import Timeline from "@/static/Timeline";
 import Image from "next/image";
-import transitionGradient from "../../../public/transitions/transition_gradient.svg";
+import transition from "../../../public/transitions/waves-gradient.svg";
 
 const About = () => {
   return (
     <div id="About" className="bg-slate-800">
+      <div className="w-full h-40 relative">
       <Image
-        src={transitionGradient}
+          src={transition}
         alt="transition"
-        className="w-cover w-full h-auto"
+          fill
+          className="w-full h-auto"
       />
+      </div>
       <div className="flex flex-col lg:flex-row justify-center items-center text-white">
         <div className="flex lg:w-1/2 w-full flex-col p-20">
           <Summary />

@@ -1,7 +1,7 @@
 import Project from "../../static/Project";
 import projectData from "../../../public/data/projects.json";
 import Image from "next/image";
-import transitionGrey from "../../../public/transitions/transition_grey.svg";
+import transitionGrey from "../../../public/transitions/waves-grey.svg";
 
 const Projects = () => {
   return (
@@ -9,11 +9,14 @@ const Projects = () => {
       id="Projects"
       className="bg-gradient-to-r from-gradientLeft to-gradientRight"
     >
+      <div className="w-full h-40 relative">
       <Image
         src={transitionGrey}
         alt="transition"
-        className="object-cover w-full h-auto"
+          fill
+          className="w-full h-auto"
       />
+      </div>
       <p className="flex text-4xl mb-8 mt-16 justify-center text-white font-bold">
         Featured Projects
       </p>
