@@ -5,14 +5,20 @@
       "image": "/images/steven-kandinsky.webp",
       "link": "https://www.muziekgebouw.nl/nl/pQA67cW/soundlab-in-het-stedelijk-museum-amsterdam",
       "tags": ["Adruino", "Technical Design", "Embedded Systems","Max/MSP"],
-      "text": ""
+      "text": "Technical design and development of interactive audio visual art installations for the SoundLAB exhibition at the Stedelijk Museum Amsterdam.",
+      "offsetX": -19,
+      "offsetY": 0,
+      "scale": 1.1
     },
     {
       "title": "Portfolio Website",
       "image": "/images/portfolio-temp-image.png",
       "link": "",
       "tags": ["Next.js", "Javascript", "Tailwind CSS"],
-      "text": "A portfolio website to showcase my work and projects."
+      "text": "A portfolio website to showcase my work and projects.",
+      "offsetX": 3,
+      "offsetY": 2,
+      "scale": 1.02
     }
   ]
 }

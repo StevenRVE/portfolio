@@ -26,6 +26,9 @@ const Projects = () => {
             text={item.text}
             tags={item.tags}
             link={item.link}
+            offsetX={item.offsetX}
+            offsetY={item.offsetY}
+            scale={item.scale}
           />
         ))}
       </div>
