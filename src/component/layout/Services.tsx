@@ -40,12 +40,12 @@ const Services = () => {
           image={serviceIcon3}
         />
       </div>
-      <p className="flex flex-col lg:text-3xl text-2xl font-bold text-center items-center mb-12">
+      <p className="flex flex-col lg:text-3xl text-2xl font-bold text-center items-center m-12">
         More information coming soon!
       </p>
-      <button className="mb-12">
+      <button className="mb-12 text-2xl">
         {/* TODO: Make button bigger */}
-        <ContactButton title={"Contact"} />
+        <ContactButton title={"Let's work together"} />
       </button>
     </div>
   );
