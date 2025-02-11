@@ -24,7 +24,7 @@ const Project = ({
 }: ProjectProps) => {
   return (
     <a href={link} aria-label={text}>
-      <div className="flex flex-col transition-all hover:scale-105 scale-100 bg-opacity-20 bg-black rounded-lg min-h-[420px] max-h-max max-w-96 m-3 text-white">
+      <div className="flex flex-col transition-all hover:scale-105 scale-100 bg-opacity-20 bg-black rounded-lg min-h-[450px] max-h-max max-w-96 m-3 text-white">
         <div className="rounded-t-lg max-h-52 object-contain overflow-hidden ">
           <Image
             alt={text}
