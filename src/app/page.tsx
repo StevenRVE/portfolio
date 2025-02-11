@@ -5,7 +5,7 @@ import Navbar from "@/component/layout/Navbar";
 import Projects from "@/component/layout/Projects";
 import Services from "@/component/layout/Services";
 import "./globals.css";
-import BurgerMenu from "@/component/menu/BurgerMenu";
+import BurgerMenu from "@/component/layout/BurgerMenu";
 import { GlobalStateProvider } from "@/contexts/GlobalStateContext";
 import Modal from "@/component/layout/Modal";
 

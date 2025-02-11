@@ -3,9 +3,9 @@
 import { useGlobalState } from "@/contexts/GlobalStateContext";
 import { useEffect } from "react";
 import SocialMedia from "@/static/SocialMedia";
-import Burger from "./elements/Burger";
-import Close from "./elements/Close";
-import Menu from "./elements/Menu";
+import Burger from "../menu/elements/Burger";
+import Close from "../menu/elements/Close";
+import Menu from "../menu/elements/Menu";
 
 const BurgerMenu = () => {
   const { isMenuOpen, toggleMenu, exitMenu } = useGlobalState();
