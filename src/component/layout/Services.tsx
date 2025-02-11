@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <div
       id="Services"
-      className="flex text-white min-h-full flex-col items-center bg-slate-800"
+      className="flex text-white min-h-full flex-col items-center bg-grey"
     >
       <div className="w-full h-20 relative">
         <Image

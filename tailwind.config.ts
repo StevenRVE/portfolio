@@ -11,8 +11,13 @@ export default {
     extend: {
       colors: {
         lightcyan: "#84ffff",
-        gradientLeft: "#8e24aa",
-        gradientRight: "#1e88e5",
+        gradientLeft: "#284B63",
+        gradientRight: "#3C6E71",
+        grey: "#353535",
+        turquoise: "#3C6E71",
+        white: "#FFFFFF",
+        lightGrey: "#D9D9D9",
+        darkTurquoise: "#284B63",
       },
       animation: {
         scalepulse: "scalepulse 8s ease-in-out infinite",

@@ -11,6 +11,6 @@
             <feComposite in="shadow" in2="SourceGraphic" />
         </filter>
     </defs>
-  <path fill="#1E293B" filter="url(#a)"
+  <path fill="#353535" filter="url(#a)"
     d="M0,64L480,192L960,160L1440,288L1440,320L960,320L480,320L0,320Z"></path>
 </svg>

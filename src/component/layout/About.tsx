@@ -5,7 +5,7 @@ import transition from "../../../public/transitions/waves-gradient.svg";
 
 const About = () => {
   return (
-    <div id="About" className="bg-slate-800">
+    <div id="About" className="bg-grey">
       <div className="w-full h-40 relative">
         <Image
           src={transition}
