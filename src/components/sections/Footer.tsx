@@ -1,4 +1,4 @@
-import SocialMedia from "@/static/SocialMedia";
+import SocialMedia from "@/components/ui/SocialMedia";
 import Image from "next/image";
 import transitionGrey from "../../../public/transitions/waves-grey.svg";
 

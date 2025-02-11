@@ -1,4 +1,4 @@
-import { useGlobalState } from "@/contexts/GlobalStateContext";
+import { useGlobalState } from "@/hooks/contexts/GlobalStateContext";
 
 const MenuItem = ({ title }: { title: string }) => {
   const { exitMenu } = useGlobalState();

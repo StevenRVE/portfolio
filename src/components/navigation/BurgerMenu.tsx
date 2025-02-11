@@ -1,11 +1,11 @@
 "use client";
 
-import { useGlobalState } from "@/contexts/GlobalStateContext";
+import { useGlobalState } from "@/hooks/contexts/GlobalStateContext";
 import { useEffect } from "react";
-import SocialMedia from "@/static/SocialMedia";
-import Burger from "../menu/elements/Burger";
-import Close from "../menu/elements/Close";
-import Menu from "../menu/elements/Menu";
+import SocialMedia from "@/components/ui/SocialMedia";
+import Burger from "../navigation/Burger";
+import Close from "../navigation/Close";
+import Menu from "../navigation/Menu";
 
 const BurgerMenu = () => {
   const { isMenuOpen, toggleMenu, exitMenu } = useGlobalState();

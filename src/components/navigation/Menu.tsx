@@ -1,4 +1,4 @@
-import ContactButton from "./ContactButton";
+import ContactButton from "../buttons/ContactButton";
 import MenuItem from "./MenuItem";
 
 const Menu = () => {

@@ -1,4 +1,4 @@
-import Project from "../../static/Project";
+import Project from "../ui/Project";
 import projectData from "../../../public/data/projects.json";
 import Image from "next/image";
 import transitionGrey from "../../../public/transitions/waves-grey.svg";

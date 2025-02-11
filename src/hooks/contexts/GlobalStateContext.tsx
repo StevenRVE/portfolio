@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useState, useContext, ReactNode } from "react";
-import { GlobalState } from "../types/types.d";
+import { GlobalState } from "../../types/types.d";
 
 const GlobalStateContext = createContext<GlobalState | undefined>(undefined);
 

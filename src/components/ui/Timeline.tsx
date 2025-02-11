@@ -1,4 +1,4 @@
-import timelineData from "../../public/data/timeline.json";
+import timelineData from "../../../public/data/timeline.json";
 import Tag from "./Tag";
 
 const Timeline = () => {

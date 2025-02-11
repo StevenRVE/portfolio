@@ -1,6 +1,6 @@
 "use client";
 
-import { useGlobalState } from "@/contexts/GlobalStateContext";
+import { useGlobalState } from "@/hooks/contexts/GlobalStateContext";
 import { useEffect } from "react";
 
 const ContactButton = ({ title }: { title: string }) => {

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import githubIcon from "../../public/icons/github-cat-lines.svg";
-import linkedinIcon from "../../public/icons/linkedin4.svg";
+import githubIcon from "../../../public/icons/github-cat-lines.svg";
+import linkedinIcon from "../../../public/icons/linkedin4.svg";
 
 const SocialMedia = ({ size }: { size: number }) => {
   return (

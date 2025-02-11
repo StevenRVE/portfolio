@@ -1,5 +1,5 @@
-import Summary from "@/static/Summary";
-import Timeline from "@/static/Timeline";
+import Summary from "@/components/ui/Summary";
+import Timeline from "@/components/ui/Timeline";
 import Image from "next/image";
 import transition from "../../../public/transitions/waves-gradient.svg";
 

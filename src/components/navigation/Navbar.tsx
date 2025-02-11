@@ -1,8 +1,8 @@
 "use client";
 
 import UseScrollFade from "@/hooks/useScrollFade";
-import MenuItem from "@/component/menu/elements/MenuItem";
-import ContactButton from "../menu/elements/ContactButton";
+import MenuItem from "@/components/navigation/MenuItem";
+import ContactButton from "../buttons/ContactButton";
 
 const Navbar = () => {
   const isAtTop = UseScrollFade();

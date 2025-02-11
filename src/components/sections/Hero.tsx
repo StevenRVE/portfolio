@@ -1,9 +1,9 @@
 "use client";
 
-import Arrow from "@/static/Arrow";
+import Arrow from "@/components/ui/Arrow";
 import Link from "next/link";
-import SocialMedia from "@/static/SocialMedia";
-import TypingAnimation from "../../static/TypingAnimation";
+import SocialMedia from "@/components/ui/SocialMedia";
+import TypingAnimation from "@/components/ui/TypingAnimation";
 import Image from "next/image";
 
 const Hero = () => {

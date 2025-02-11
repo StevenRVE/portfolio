@@ -1,8 +1,8 @@
 "use client";
 
-import Contact from "@/static/Contact";
-import Close from "../menu/elements/Close";
-import { useGlobalState } from "@/contexts/GlobalStateContext";
+import Contact from "@/components/ui/Contact";
+import Close from "../navigation/Close";
+import { useGlobalState } from "@/hooks/contexts/GlobalStateContext";
 
 function Modal() {
   const { isModalOpen, exitModal } = useGlobalState();

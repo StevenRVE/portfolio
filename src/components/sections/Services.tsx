@@ -1,5 +1,5 @@
-import Service from "@/static/Service";
-import ContactButton from "../menu/elements/ContactButton";
+import Service from "@/components/ui/Service";
+import ContactButton from "../buttons/ContactButton";
 import Image from "next/image";
 import serviceIcon1 from "../../../public/icons/dashboard.svg";
 import serviceIcon2 from "../../../public/icons/music-equalizer.svg";
