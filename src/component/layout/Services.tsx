@@ -35,8 +35,8 @@ const Services = () => {
           image={serviceIcon2}
         />
         <Service
-          headline="Web Development"
-          description="Service 3 description"
+          headline="Audio Plugin Quality Assurance"
+          description="Testing VSTs, AUs, LV2, and AAX plugins"
           image={serviceIcon3}
         />
       </div>
