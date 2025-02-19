@@ -18,27 +18,34 @@ const Hero = () => {
             Hello, I&apos;m Steven
           </p>
           <p className="lg:text-[3vw] text-[5vw]">
-            a developer specializing in audio software development with
+            a developer specializing in audio software development with&nbsp;
             <TypingAnimation />
           </p>
           <div className="lg:flex hidden mt-6 justify-start w-[15vw]">
             <SocialMedia size={100} />
           </div>
         </div>
-        <div className="lg:w-2/5 w-full order-first lg:order-last">
+        <div className="lg:w-2/5 w-full order-first lg:order-last flex justify-center">
           <Image
             src="/images/portrait-steven-no-bg.webp"
             alt="Portrait"
             width={500}
             height={500}
             className="object-contain mb-10 lg:mb-0"
+            style={{ width: "auto", height: "auto" }}
+            priority={true}
           />
         </div>
         <div className="flex lg:absolute bottom-10 inset-0 items-end p-0 justify-center">
           <Link href={"/#About"} aria-label="About" className="px-4 pb-4 pt-2">
-            <Arrow />
+            <Arrow rotateDegrees={45} />
           </Link>
         </div>
+        {/* <div>
+          <Link href={"/#Hero"} aria-label="Hero" className="px-4 pb-4 pt-2">
+            <Arrow rotateDegrees={225} />
+          </Link>
+        </div> */}
       </div>
     </div>
   );
