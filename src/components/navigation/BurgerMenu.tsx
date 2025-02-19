@@ -3,8 +3,8 @@
 import { useGlobalState } from "@/hooks/contexts/GlobalStateContext";
 import { useEffect } from "react";
 import SocialMedia from "@/components/ui/SocialMedia";
-import Burger from "../navigation/Burger";
-import Close from "../navigation/Close";
+import BurgerButton from "../buttons/BurgerButton";
+import CloseButton from "../buttons/CloseButton";
 import Menu from "../navigation/Menu";
 
 const BurgerMenu = () => {
@@ -26,9 +26,12 @@ const BurgerMenu = () => {
 
   return (
     <div className="lg:hidden">
-      <div className="fixed top-0 right-0 p-2 z-50" onClick={toggleMenu}>
-        {/* Tried to change this to <button> but descendant issue? */}
-        {isMenuOpen ? <Close /> : <Burger />}
+      <div className="fixed top-0 right-0 p-2 z-50">
+        {isMenuOpen ? (
+          <CloseButton onClick={exitMenu} />
+        ) : (
+          <BurgerButton onClick={toggleMenu} />
+        )}
       </div>
       {isMenuOpen ? (
         <div className="flex justify-between pt-20 fixed flex-col text-white text-4xl pl-5 bg-black backdrop-blur-md bg-opacity-40 w-full h-full z-40">
