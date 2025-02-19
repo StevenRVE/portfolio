@@ -44,7 +44,6 @@ const Services = () => {
         More information coming soon!
       </p>
       <button className="mb-12 text-2xl">
-        {/* TODO: Make button bigger */}
         <ContactButton title={"Let's work together"} />
       </button>
     </div>
