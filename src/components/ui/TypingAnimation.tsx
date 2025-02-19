@@ -22,8 +22,8 @@ const TypingAnimation = () => {
         textAlign: "left",
         color: "#84ffff",
         fontWeight: "bold",
+        width: "400px",
         display: "inline-block",
-        width: "100%",
       }}
       repeat={Infinity}
     />
