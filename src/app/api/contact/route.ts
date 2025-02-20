@@ -12,7 +12,7 @@ export async function POST(request: Request) {
 
     // Send email using Resend
     await resend.emails.send({
-      from: "steven.bwaits.nl", // Sender's email address
+      from: "sve.portfolio.contact@bwaits.nl", // Sender's email address
       to: "stevenvanesch.sve@gmail.com", // Recipient's email address (e.g., yours)
       subject: subject || "No subject", // Default subject
       html: `
