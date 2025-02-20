@@ -12,7 +12,7 @@ const Services = () => {
       id="Services"
       className="flex text-white min-h-full flex-col items-center bg-grey"
     >
-      <div className="w-full h-20 relative">
+      <div className="w-full h-40 relative">
         <Image
           src={transitionGradient}
           alt="transition"
